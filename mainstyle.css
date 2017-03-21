@@ -1,0 +1,111 @@
+@charset "utf-8";
+html {
+	position:relative;
+	min-height:100%;
+}
+body {
+	background-color:#0e0e0e;
+	color:#8e8e8e;
+}
+
+#banner {
+	background: url("images/training_banner.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 50px 0px 50px 0px;
+}
+
+#logo {
+	border-radius:50%;
+	padding: 0px 0px 0px 20px;
+}
+
+nav {
+	text-align: center;
+	display: table;
+	font-family: 'Montserrat', sans-serif;
+	background-color:#444444;
+	position:absolute;
+	font-size: 200%;
+	line-height:2;
+	padding: 2px 5px 2px 5px;
+	margin: 20px 10px 10px 30px;
+}
+
+nav .navBar {
+	background-color: lightslategray;
+	width:120px;
+	cursor: pointer;
+	border: medium #777777 outset;
+
+}
+nav .navBar:hover {
+	background-color: lightsteelblue;
+}
+
+nav .navBar:active{
+	border: medium #777777 inset;
+}
+
+nav a {
+	text-decoration: none;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+a:link {
+	color:white;
+}
+
+#announce {
+	margin:auto;
+	overflow-y:scroll;
+	height: 150px;
+	width: 40%;
+}
+
+#announce ul {
+	list-style-type:none;
+}
+
+h1 {
+	text-align:center;
+}
+
+#main {
+	text-align: center;
+	padding: 0px 100px 100px 250px;
+}
+
+#lectureClash{
+	text-align:justify;
+	display: inline-block;
+}
+
+.floatImgLeft {
+	float:left;
+	height:auto;
+	width:300px;
+	padding: 10px;
+}
+
+.floatImgRight {
+	float:right;
+	height:auto;
+	width:300px;
+	padding: 10px;
+}
+
+.linkImg {
+	height:auto;
+	width:300px;
+	padding: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+	font-size: 10px;
+	text-align: center;
+}
