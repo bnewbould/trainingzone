@@ -34,7 +34,8 @@ nav {
 
 nav .navBar {
 	background-color: lightslategray;
-	width:120px;
+	width: 120px;
+	height: 60px;
 	cursor: pointer;
 	border: medium #777777 outset;
 
